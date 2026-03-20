@@ -60,6 +60,10 @@ h2 {
     text-align: center;
     font-size: 1.4rem;
 }
+#Meetings h4 .day {
+    font-weight: bold;
+    color: #2a52be;
+}
 #Resources {
     max-width: 800px;
     margin: 20px auto;
