@@ -1,4 +1,9 @@
 nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: auto;
+    left: -0.55vw;
     display: flex;
     justify-content: center;
     background-color: #f2f2f2;
@@ -14,6 +19,14 @@ nav h1 {
 nav img {
     width: 300px;
     height: auto;
+}
+nav > h2 {
+    margin: 0;
+    flex-basis: 100%;
+    text-align: center;
+    background: radial-gradient(circle at center, #0093D0, #2a52be);
+    color: #DDDDDD;
+    font-size: 1.2rem;
 }
 /*
 #background-image {
@@ -36,39 +49,85 @@ h2 {
     width: 100%;
     max-width: 600px;
     height: auto;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
 #Introduction {
     max-width: 800px;
-    margin: 20px auto;
+    margin:10px auto;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
+}
+#district-description {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+#district-description a {
+    color: #2a52be;
+    text-decoration: none;
+    font-weight: bold;
+}
+#district-description a:hover {
+    color: #152668;
 }
 #Meetings {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
+    color: #dddddd;
+    background-color: #152668;
     border-radius: 10px;
+}
+#Meetings h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 .meeting-schedule {
     margin-bottom: 10px;
-    background-color: #aaaaaaaf;
-    padding: 10px;
+    background-color: #dddddd;
+    padding: 50px;
     border-radius: 20px;
+    border: 5px solid #ff9900;
 }
 #Meetings h3 {
     margin-top: 0;
     margin-bottom: 10px;
     text-align: center;
     font-size: 1.4rem;
+    text-decoration-line: underline;
+    color: #000000;
 }
-#Meetings h4 .day {
+#Meetings h4 {
+    font-size: 1.2rem;
+    font-weight: bold;;
+    color: #000000;
+}
+#Meetings h5 .event {
+    font-size: 1.1rem;
     font-weight: bold;
     color: #2a52be;
+}
+.meeting-schedule p {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #000000;
+}
+#Shelby {
+    scroll-margin-top: 200px;
+}
+#Browining {
+    scroll-margin-top: 200px;
+}
+#Lewistown {
+    scroll-margin-top: 200px;
+}
+#Hobson {
+    scroll-margin-top: 200px;
 }
 #Resources {
     max-width: 800px;
